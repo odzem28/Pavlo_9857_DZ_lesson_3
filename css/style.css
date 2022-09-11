@@ -1,0 +1,30 @@
+.content{
+	color: brown;
+}
+.link{
+	color: rgb(94, 172, 87);
+}
+
+div.text{
+	color: blueviolet;
+}
+
+.color *{
+	color: red;
+}
+
+p{
+	color: rgb(135, 211, 186);
+}
+
+.color> p {
+	color: rgb(156, 245, 12);
+}
+
+.next ~ p {
+	color: rgb(105, 29, 29);
+}
+
+.one + p {
+color: rgb(173, 15, 134);
+}
